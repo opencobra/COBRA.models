@@ -6,5 +6,49 @@
     {
         "name": "iIT341.xml",
         "url": "http://bigg.ucsd.edu/static/models/iIT341.xml"
+    },
+    {
+        "name": "Abiotrophia_defectiva_ATCC_49176.xml",
+        "url": "https://webdav-r3lab.uni.lu/public/msp/AGORA/sbml/Abiotrophia_defectiva_ATCC_49176.xml"
+    },
+    {
+        "name": "Sc_iND750_flux1.xml",
+        "url": "http://gcrg.ucsd.edu/sites/default/files/Attachments/Images/InSilicoOrganisms/yeast/Sc_iND750_flux1.xml"
+    },
+    {
+        "name": "ecoli_core_model.mat",
+        "url": "http://gcrg.ucsd.edu/sites/default/files/Attachments/Images/downloads/Ecoli_core/ecoli_core_model.mat"
+    },
+    {
+        "name": "modelReg.mat",
+        "url": "http://gcrg.ucsd.edu/sites/default/files/Attachments/Images/downloads/Ecoli_core/modelReg.mat"
+    },
+    {
+        "name": "iAF1260.mat",
+        "url": "http://bigg.ucsd.edu/static/models/iAF1260.mat"
+    },
+    {
+        "name": "iJO1366.mat",
+        "url": "http://bigg.ucsd.edu/static/models/iJO1366.mat"
+    },
+    {
+        "name": "Abiotrophia_defectiva_ATCC_49176.mat",
+        "url": "https://webdav-r3lab.uni.lu/public/msp/AGORA/mat/Abiotrophia_defectiva_ATCC_49176.mat"
+    },
+    {
+        "name": "Acidaminococcus_fermentans_DSM_20731.mat",
+        "url": "https://webdav-r3lab.uni.lu/public/msp/AGORA/mat/Acidaminococcus_fermentans_DSM_20731.mat"
+    },
+    {
+        "name": "Acidaminococcus_intestini_RyC_MR95.mat",
+        "url": "https://webdav-r3lab.uni.lu/public/msp/AGORA/mat/Acidaminococcus_intestini_RyC_MR95.mat"
+    },
+    {
+        "name": "Acidaminococcus_sp_D21.mat",
+        "url": "https://webdav-r3lab.uni.lu/public/msp/AGORA/mat/Acidaminococcus_sp_D21.mat"
+    },
+    {
+        "name": "Acinetobacter_calcoaceticus_PHEA_2.mat",
+        "url": "https://webdav-r3lab.uni.lu/public/msp/AGORA/mat/Acinetobacter_calcoaceticus_PHEA_2.mat"
     }
 ]
