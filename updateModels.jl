@@ -5,7 +5,7 @@ using Requests
 tempDirPath = mktempdir()
 
 # parse the JSON list of models
-listModels = JSON.parsefile("models.json")
+listModels = JSON.parsefile("/var/lib/jenkins/COBRA.models/models.json")
 
 println(" > The temporary directory is: $tempDirPath")
 
