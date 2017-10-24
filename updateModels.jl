@@ -9,6 +9,9 @@ listModels = JSON.parsefile("models.json")
 
 println(" > The temporary directory is: $tempDirPath")
 
+# counters
+counter = 0
+
 # loop through the models and download them
 for model in listModels
     # download the file name
@@ -26,9 +29,15 @@ for model in listModels
 
     if checkSum == checkSumOrig
         println(" - SAME: $(model["name"]) [new: $checkSum | orig: $checkSumOrig]")
-        run(pipeline(`echo "[COBRA.models] Models are the same"`, `mail -s "- [COBRA.models] Models are the same" laurent.heirendt@uni.lu`))
+        counter = counter + 1
     else
         println(" + DIFFERENT: $(model["name"]) [new: $checkSum | orig: $checkSumOrig]")
-        run(pipeline(`echo "[COBRA.models] Models are different"`, `mail -s "+ [COBRA.models] Models are different" laurent.heirendt@uni.lu`))
     end
+end
+
+# print a feedback message
+if counter > 0
+    run(pipeline(`echo "[COBRA.models] Models are different"`, `mail -s "+ [COBRA.models] Models are different" laurent.heirendt@uni.lu`))
+else
+    run(pipeline(`echo "[COBRA.models] Models are the same"`, `mail -s "- [COBRA.models] Models are the same" laurent.heirendt@uni.lu`))
 end
