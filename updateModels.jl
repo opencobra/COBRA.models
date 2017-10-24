@@ -29,9 +29,9 @@ for model in listModels
 
     if checkSum == checkSumOrig
         println(" - SAME: $(model["name"]) [new: $checkSum | orig: $checkSumOrig]")
-        counter = counter + 1
     else
         println(" + DIFFERENT: $(model["name"]) [new: $checkSum | orig: $checkSumOrig]")
+        counter = counter + 1
     end
 end
 
@@ -41,3 +41,9 @@ if counter > 0
 else
     run(pipeline(`echo "[COBRA.models] Models are the same"`, `mail -s "- [COBRA.models] Models are the same" laurent.heirendt@uni.lu`))
 end
+
+# remove the temporary folder
+rm(tempDirPath, recursive=true)
+
+# print feedback message
+println(" > Folder $tempDirPath has been removed. Done.")
