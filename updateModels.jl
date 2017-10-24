@@ -47,3 +47,6 @@ rm(tempDirPath, recursive=true)
 
 # print feedback message
 println(" > Folder $tempDirPath has been removed. Done.")
+
+# exit
+exit()
