@@ -4,8 +4,11 @@ using Requests
 # create a temporary directory
 tempDirPath = mktempdir()
 
+# change directory
+cd("/var/lib/jenkins/COBRA.models")
+
 # parse the JSON list of models
-listModels = JSON.parsefile("/var/lib/jenkins/COBRA.models/models.json")
+listModels = JSON.parsefile("models.json")
 
 println(" > The temporary directory is: $tempDirPath")
 
