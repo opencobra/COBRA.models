@@ -36,10 +36,9 @@ end
 
 # create a temporary directory
 tempDirPath = mktempdir()
-repoDir = ENV["HOME"]*"/work/git/hub/COBRA.models"
+repoDir = "/var/lib/jenkins/COBRA.models"
 
 # change directory
-#cd("/var/lib/jenkins/COBRA.models")
 cd(repoDir)
 
 # parse the JSON list of models
