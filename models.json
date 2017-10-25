@@ -1,5 +1,30 @@
 [
     {
+        "name": "Ec_iAF1260_flux1.xml",
+        "url": "http://systemsbiology.ucsd.edu/sites/default/files/Attachments/Images/InSilicoOrganisms/Ecoli/Ecoli_SBML/msb4100155-s6.zip",
+        "fileToBeRenamed": "Ec_iAF1260_flux1.txt"
+    },
+    {
+        "name": "STM_v1.0.xml",
+        "url": "https://static-content.springer.com/esm/art%3A10.1186%2F1752-0509-5-8/MediaObjects/12918_2010_598_MOESM2_ESM.ZIP",
+        "fileToBeRenamed": "STM_v1.0.xml"
+    },
+    {
+        "name": "ME_matrix_GlcAer_WT.mat",
+        "url": "https://wwwen.uni.lu/content/download/72953/917521/file/download.zip",
+        "fileToBeRenamed": "ME_matrix_GlcAer_WT.mat"
+    },
+    {
+        "name": "Recon2.v04.mat",
+        "url": "https://vmh.uni.lu/files/Recon2.v04.mat_.zip",
+        "fileToBeRenamed": "Recon2.v04.mat"
+    },
+    {
+        "name": "cardiac_mit_glcuptake_atpmax.mat",
+        "url": "https://wwwen.uni.lu/content/download/72949/917505/file/Human%20cardiac%20myocyte%20mitochondrial%20metabolic%20reconstruction_cardiac_mit_glcuptake_atpmax.mat.zip",
+        "fileToBeRenamed": "cardiac_mit_glcuptake_atpmax.mat"
+    },
+    {
         "name": "AntCore.mat",
         "url": "https://raw.github.com/snmendoz/Models/master/AntCore.mat"
     },
