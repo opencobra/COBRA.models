@@ -78,10 +78,12 @@
     },
     {
         "name": "Recon3D_Dec2017.mat",
-        "url": "https://webdav-r3lab.uni.lu/public/msp/Recon3D/Recon3D.zip"
+        "url": "https://webdav-r3lab.uni.lu/public/msp/Recon3D/Recon3D.zip",
+        "fileToBeRenamed": "Recon3D_Dec2017.mat"
     },
     {
         "name": "Recon3DModel_Dec2017.mat",
-        "url": "https://webdav-r3lab.uni.lu/public/msp/Recon3D/Recon3D.zip"
+        "url": "https://webdav-r3lab.uni.lu/public/msp/Recon3D/Recon3D.zip",
+        "fileToBeRenamed": "Recon3DModel_Dec2017.mat"
     }
 ]
