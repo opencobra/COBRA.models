@@ -75,5 +75,13 @@
     {
         "name": "Acinetobacter_calcoaceticus_PHEA_2.mat",
         "url": "https://webdav-r3lab.uni.lu/public/msp/AGORA/mat/Acinetobacter_calcoaceticus_PHEA_2.mat"
+    },
+    {
+        "name": "Recon3D_Dec2017.mat",
+        "url": "https://webdav-r3lab.uni.lu/public/msp/Recon3D/Recon3D.zip"
+    },
+    {
+        "name": "Recon3DModel_Dec2017.mat",
+        "url": "https://webdav-r3lab.uni.lu/public/msp/Recon3D/Recon3D.zip"
     }
 ]
