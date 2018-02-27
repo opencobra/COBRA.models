@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' standalone='no'?>
-<!-- Created by ModelPolisher version 1.7 on 2017-01-08 at 23:01:38 PDT with JSBML version 1.2. -->
+<!-- Created by ModelPolisher version 1.7 on 2018-52-24 at 21:52:38 PST with JSBML version 1.2. -->
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" fbc:required="false" groups:required="false" level="3" sboTerm="SBO:0000624" version="1"
 xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1">
   <notes>
@@ -28,8 +28,8 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
       <a href="http://github.com/SBRG/ModelPolisher/" target="_blank" title="Access ModelPolisher on Github">ModelPolisher</a>&#160;application.</div>
       <div class="dc:publisher">This file has been produced by the 
       <a href="http://systemsbiology.ucsd.edu" title="Website of the Systems Biology Research Group" target="_blank">Systems Biology Research Group</a>&#160;using 
-      <a href="http://bigg.ucsd.edu" title="Access BiGG Models knowledge-base." target="_blank">BiGG Models knowledge-base</a>&#160;version of Oct 8, 2017, where it is currently hosted and identified
-      by: 
+      <a href="http://bigg.ucsd.edu" title="Access BiGG Models knowledge-base." target="_blank">BiGG Models knowledge-base</a>&#160;version of Feb 24, 2018, where it is currently hosted and
+      identified by: 
       <a href="http://identifiers.org/bigg.model/iIT341" title="Access to this model via BiGG Models knowledge-base." target="_blank">iIT341</a>.</div>
       <h2>Terms of use</h2>
       <div class="dc:rightsHolder">Copyright © 2017 The Regents of the University of California.</div>
@@ -122,20 +122,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0557" fbc:label="HP0557" metaid="G_HP0557">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0557">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900037" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645182" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0371" fbc:label="HP0371" metaid="G_HP0371">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -144,6 +130,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/900086" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644999" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0557" fbc:label="HP0557" metaid="G_HP0557">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0557">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900037" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645182" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -739,14 +739,14 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1134" fbc:label="HP1134" metaid="G_HP1134">
+      <fbc:geneProduct fbc:id="G_HP1136" fbc:label="HP1136" metaid="G_HP1136">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1134">
+            <rdf:Description rdf:about="#G_HP1136">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899671" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645748" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899673" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645750" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -767,14 +767,28 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1136" fbc:label="HP1136" metaid="G_HP1136">
+      <fbc:geneProduct fbc:id="G_HP1134" fbc:label="HP1134" metaid="G_HP1134">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1136">
+            <rdf:Description rdf:about="#G_HP1134">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899673" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645750" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899671" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645748" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1133" fbc:label="HP1133" metaid="G_HP1133">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1133">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899670" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645747" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -809,34 +823,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1137" fbc:label="HP1137" metaid="G_HP1137">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1137">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899674" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645751" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1133" fbc:label="HP1133" metaid="G_HP1133">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1133">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899670" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645747" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP1132" fbc:label="HP1132" metaid="G_HP1132">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -845,6 +831,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899669" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645746" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1137" fbc:label="HP1137" metaid="G_HP1137">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1137">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899674" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645751" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -865,14 +865,14 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1227" fbc:label="HP1227" metaid="G_HP1227">
+      <fbc:geneProduct fbc:id="G_HP1539" fbc:label="HP1539" metaid="G_HP1539">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1227">
+            <rdf:Description rdf:about="#G_HP1539">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900183" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645841" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899752" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15646146" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -893,6 +893,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1227" fbc:label="HP1227" metaid="G_HP1227">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1227">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900183" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645841" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP1540" fbc:label="HP1540" metaid="G_HP1540">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -901,20 +915,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899751" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15646147" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1539" fbc:label="HP1539" metaid="G_HP1539">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1539">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899752" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15646146" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -935,28 +935,14 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0561" fbc:label="HP0561" metaid="G_HP0561">
+      <fbc:geneProduct fbc:id="G_HP0195" fbc:label="HP0195" metaid="G_HP0195">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0561">
+            <rdf:Description rdf:about="#G_HP0195">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900034" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645186" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0558" fbc:label="HP0558" metaid="G_HP0558">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0558">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898935" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645183" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899156" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644824" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -977,14 +963,28 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0195" fbc:label="HP0195" metaid="G_HP0195">
+      <fbc:geneProduct fbc:id="G_HP0558" fbc:label="HP0558" metaid="G_HP0558">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0195">
+            <rdf:Description rdf:about="#G_HP0558">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899156" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644824" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898935" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645183" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0561" fbc:label="HP0561" metaid="G_HP0561">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0561">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900034" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645186" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1019,20 +1019,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0919" fbc:label="HP0919" metaid="G_HP0919">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0919">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899448" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645535" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP1237" fbc:label="HP1237" metaid="G_HP1237">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -1041,6 +1027,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899987" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645851" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0919" fbc:label="HP0919" metaid="G_HP0919">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0919">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899448" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645535" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1117,20 +1117,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0665" fbc:label="HP0665" metaid="G_HP0665">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0665">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899306" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645289" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP1226" fbc:label="HP1226" metaid="G_HP1226">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -1139,6 +1125,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899078" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645840" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0665" fbc:label="HP0665" metaid="G_HP0665">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0665">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899306" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645289" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1173,34 +1173,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0146" fbc:label="HP0146" metaid="G_HP0146">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0146">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900236" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644775" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0145" fbc:label="HP0145" metaid="G_HP0145">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0145">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899007" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644774" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0147" fbc:label="HP0147" metaid="G_HP0147">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -1215,6 +1187,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0146" fbc:label="HP0146" metaid="G_HP0146">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0146">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900236" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644775" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0144" fbc:label="HP0144" metaid="G_HP0144">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -1223,6 +1209,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/900150" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644773" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0145" fbc:label="HP0145" metaid="G_HP0145">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0145">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899007" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644774" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1467,20 +1467,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0266" fbc:label="HP0266" metaid="G_HP0266">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0266">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899074" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644894" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0581" fbc:label="HP0581" metaid="G_HP0581">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -1489,6 +1475,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/900032" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645206" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0266" fbc:label="HP0266" metaid="G_HP0266">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0266">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899074" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644894" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1761,28 +1761,14 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0888" fbc:label="HP0888" metaid="G_HP0888">
+      <fbc:geneProduct fbc:id="G_HP1400" fbc:label="HP1400" metaid="G_HP1400">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0888">
+            <rdf:Description rdf:about="#G_HP1400">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899416" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645506" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0889" fbc:label="HP0889" metaid="G_HP0889">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0889">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899417" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645507" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899896" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15646010" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1817,14 +1803,28 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1400" fbc:label="HP1400" metaid="G_HP1400">
+      <fbc:geneProduct fbc:id="G_HP0889" fbc:label="HP0889" metaid="G_HP0889">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1400">
+            <rdf:Description rdf:about="#G_HP0889">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899896" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15646010" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899417" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645507" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0888" fbc:label="HP0888" metaid="G_HP0888">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0888">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899416" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645506" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1887,6 +1887,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0191" fbc:label="HP0191" metaid="G_HP0191">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0191">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899155" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644820" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0192" fbc:label="HP0192" metaid="G_HP0192">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -1909,20 +1923,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/898966" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644822" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0191" fbc:label="HP0191" metaid="G_HP0191">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0191">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899155" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644820" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -2055,20 +2055,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1346" fbc:label="HP1346" metaid="G_HP1346">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1346">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900357" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645959" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0921" fbc:label="HP0921" metaid="G_HP0921">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -2077,6 +2063,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899450" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645537" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1346" fbc:label="HP1346" metaid="G_HP1346">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1346">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900357" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645959" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -2139,20 +2139,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1172" fbc:label="HP1172" metaid="G_HP1172">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1172">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899932" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645786" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP1170" fbc:label="HP1170" metaid="G_HP1170">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -2189,6 +2175,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899931" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645785" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1172" fbc:label="HP1172" metaid="G_HP1172">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1172">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899932" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645786" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -2251,20 +2251,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0476" fbc:label="HP0476" metaid="G_HP0476">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0476">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898901" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645104" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0643" fbc:label="HP0643" metaid="G_HP0643">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -2273,6 +2259,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/900020" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645267" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0476" fbc:label="HP0476" metaid="G_HP0476">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0476">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898901" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645104" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -2447,20 +2447,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1186" fbc:label="HP1186" metaid="G_HP1186">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1186">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899948" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645800" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0004" fbc:label="HP0004" metaid="G_HP0004">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -2469,6 +2455,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/898779" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644638" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1186" fbc:label="HP1186" metaid="G_HP1186">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1186">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899948" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645800" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -2573,20 +2573,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0631" fbc:label="HP0631" metaid="G_HP0631">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0631">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899296" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645255" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0632" fbc:label="HP0632" metaid="G_HP0632">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -2595,6 +2581,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/900022" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645256" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0631" fbc:label="HP0631" metaid="G_HP0631">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0631">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899296" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645255" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -2769,34 +2769,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0159" fbc:label="HP0159" metaid="G_HP0159">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0159">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899141" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644788" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1416" fbc:label="HP1416" metaid="G_HP1416">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1416">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899878" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15646026" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0826" fbc:label="HP0826" metaid="G_HP0826">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -2805,6 +2777,21 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/900191" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645445" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0093" fbc:label="HP0093" />
+      <fbc:geneProduct fbc:id="G_HP0279" fbc:label="HP0279" metaid="G_HP0279">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0279">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900111" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644907" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -2825,14 +2812,14 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0279" fbc:label="HP0279" metaid="G_HP0279">
+      <fbc:geneProduct fbc:id="G_HP0159" fbc:label="HP0159" metaid="G_HP0159">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0279">
+            <rdf:Description rdf:about="#G_HP0159">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900111" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644907" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899141" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644788" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -2840,7 +2827,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
         </annotation>
       </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0094" fbc:label="HP0094" />
-      <fbc:geneProduct fbc:id="G_HP0093" fbc:label="HP0093" />
+      <fbc:geneProduct fbc:id="G_HP1416" fbc:label="HP1416" metaid="G_HP1416">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1416">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899878" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15646026" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0140" fbc:label="HP0140" metaid="G_HP0140">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -3065,6 +3065,34 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1263" fbc:label="HP1263" metaid="G_HP1263">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1263">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898918" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645877" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1267" fbc:label="HP1267" metaid="G_HP1267">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1267">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898785" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645881" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP1269" fbc:label="HP1269" metaid="G_HP1269">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -3079,28 +3107,14 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1268" fbc:label="HP1268" metaid="G_HP1268">
+      <fbc:geneProduct fbc:id="G_HP1271" fbc:label="HP1271" metaid="G_HP1271">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1268">
+            <rdf:Description rdf:about="#G_HP1271">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898843" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645882" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1272" fbc:label="HP1272" metaid="G_HP1272">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1272">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898821" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645886" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898818" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645885" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -3135,70 +3149,14 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1270" fbc:label="HP1270" metaid="G_HP1270">
+      <fbc:geneProduct fbc:id="G_HP1266" fbc:label="HP1266" metaid="G_HP1266">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1270">
+            <rdf:Description rdf:about="#G_HP1266">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898786" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645884" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1265" fbc:label="HP1265" metaid="G_HP1265">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1265">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899076" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645879" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1264" fbc:label="HP1264" metaid="G_HP1264">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1264">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898999" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645878" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1267" fbc:label="HP1267" metaid="G_HP1267">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1267">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898785" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645881" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1261" fbc:label="HP1261" metaid="G_HP1261">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1261">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900328" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645875" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900184" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645880" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -3219,42 +3177,84 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1263" fbc:label="HP1263" metaid="G_HP1263">
+      <fbc:geneProduct fbc:id="G_HP1265" fbc:label="HP1265" metaid="G_HP1265">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1263">
+            <rdf:Description rdf:about="#G_HP1265">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898918" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645877" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899076" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645879" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1266" fbc:label="HP1266" metaid="G_HP1266">
+      <fbc:geneProduct fbc:id="G_HP1261" fbc:label="HP1261" metaid="G_HP1261">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1266">
+            <rdf:Description rdf:about="#G_HP1261">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900184" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645880" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900328" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645875" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1271" fbc:label="HP1271" metaid="G_HP1271">
+      <fbc:geneProduct fbc:id="G_HP1270" fbc:label="HP1270" metaid="G_HP1270">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1271">
+            <rdf:Description rdf:about="#G_HP1270">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898818" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645885" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898786" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645884" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1272" fbc:label="HP1272" metaid="G_HP1272">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1272">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898821" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645886" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1264" fbc:label="HP1264" metaid="G_HP1264">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1264">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898999" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645878" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1268" fbc:label="HP1268" metaid="G_HP1268">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1268">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/898843" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645882" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -3275,20 +3275,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1077" fbc:label="HP1077" metaid="G_HP1077">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1077">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899613" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645691" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP1576" fbc:label="HP1576" metaid="G_HP1576">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -3297,6 +3283,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899715" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15646183" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1077" fbc:label="HP1077" metaid="G_HP1077">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1077">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899613" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645691" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -3359,20 +3359,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0692" fbc:label="HP0692" metaid="G_HP0692">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0692">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899313" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645315" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0691" fbc:label="HP0691" metaid="G_HP0691">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -3381,6 +3367,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899012" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645314" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0692" fbc:label="HP0692" metaid="G_HP0692">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0692">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899313" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645315" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -3415,6 +3415,34 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0590" fbc:label="HP0590" metaid="G_HP0590">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0590">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899285" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645215" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0591" fbc:label="HP0591" metaid="G_HP0591">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0591">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900027" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645216" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0589" fbc:label="HP0589" metaid="G_HP0589">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -3437,34 +3465,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899022" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645213" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0591" fbc:label="HP0591" metaid="G_HP0591">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0591">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900027" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645216" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0590" fbc:label="HP0590" metaid="G_HP0590">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0590">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899285" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645215" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -3583,20 +3583,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1109" fbc:label="HP1109" metaid="G_HP1109">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1109">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899645" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645723" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP1111" fbc:label="HP1111" metaid="G_HP1111">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -3605,6 +3591,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899647" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645725" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1109" fbc:label="HP1109" metaid="G_HP1109">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1109">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899645" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645723" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -3849,20 +3849,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0818" fbc:label="HP0818" metaid="G_HP0818">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0818">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899359" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645437" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0819" fbc:label="HP0819" metaid="G_HP0819">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -3871,6 +3857,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899360" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645438" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0818" fbc:label="HP0818" metaid="G_HP0818">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0818">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899359" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645437" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -4018,20 +4018,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1574" fbc:label="HP1574" metaid="G_HP1574">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1574">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899717" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15646181" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0002" fbc:label="HP0002" metaid="G_HP0002">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -4040,6 +4026,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/898768" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644636" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1574" fbc:label="HP1574" metaid="G_HP1574">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1574">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899717" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15646181" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -4382,34 +4382,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0825" fbc:label="HP0825" metaid="G_HP0825">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0825">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899063" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645444" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0824" fbc:label="HP0824" metaid="G_HP0824">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0824">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899362" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645443" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP1164" fbc:label="HP1164" metaid="G_HP1164">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -4418,6 +4390,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/899924" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645778" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0825" fbc:label="HP0825" metaid="G_HP0825">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0825">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899063" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645444" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -4438,14 +4424,14 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP1277" fbc:label="HP1277" metaid="G_HP1277">
+      <fbc:geneProduct fbc:id="G_HP0824" fbc:label="HP0824" metaid="G_HP0824">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP1277">
+            <rdf:Description rdf:about="#G_HP0824">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899040" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645891" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899362" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645443" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -4460,6 +4446,20 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/900204" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645892" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP1277" fbc:label="HP1277" metaid="G_HP1277">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP1277">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899040" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15645891" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -4676,34 +4676,6 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0073" fbc:label="HP0073" metaid="G_HP0073">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0073">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900171" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644703" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0068" fbc:label="HP0068" metaid="G_HP0068">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0068">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899102" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644698" />
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_HP0072" fbc:label="HP0072" metaid="G_HP0072">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -4718,14 +4690,14 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0067" fbc:label="HP0067" metaid="G_HP0067">
+      <fbc:geneProduct fbc:id="G_HP0069" fbc:label="HP0069" metaid="G_HP0069">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0067">
+            <rdf:Description rdf:about="#G_HP0069">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899986" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644697" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900170" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644699" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -4746,14 +4718,42 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_HP0069" fbc:label="HP0069" metaid="G_HP0069">
+      <fbc:geneProduct fbc:id="G_HP0067" fbc:label="HP0067" metaid="G_HP0067">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#G_HP0069">
+            <rdf:Description rdf:about="#G_HP0067">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900170" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644699" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899986" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644697" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0068" fbc:label="HP0068" metaid="G_HP0068">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0068">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/899102" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644698" />
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_HP0073" fbc:label="HP0073" metaid="G_HP0073">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_HP0073">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/900171" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:15644703" />
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -5547,10 +5547,10 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
         <listOfUnits>
-          <unit exponent="1" kind="mole" metaid="_69421326-8540-4754-87f2-8bf62010865b" multiplier="1" scale="-3">
+          <unit exponent="1" kind="mole" metaid="b34eb174-5b26-4573-b824-c8ad71760527" multiplier="1" scale="-3">
             <annotation>
               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Description rdf:about="#_69421326-8540-4754-87f2-8bf62010865b">
+                <rdf:Description rdf:about="#b34eb174-5b26-4573-b824-c8ad71760527">
                   <bqbiol:is>
                     <rdf:Bag>
                       <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000040" />
@@ -5560,10 +5560,10 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
               </rdf:RDF>
             </annotation>
           </unit>
-          <unit exponent="-1" kind="gram" metaid="_579e0a53-f51f-4a91-b549-e2788a1387a0" multiplier="1" scale="0">
+          <unit exponent="-1" kind="gram" metaid="_91301b84-9a38-4760-84fa-f1e6d71c0f5e" multiplier="1" scale="0">
             <annotation>
               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Description rdf:about="#_579e0a53-f51f-4a91-b549-e2788a1387a0">
+                <rdf:Description rdf:about="#_91301b84-9a38-4760-84fa-f1e6d71c0f5e">
                   <bqbiol:isVersionOf>
                     <rdf:Bag>
                       <rdf:li rdf:resource="UO:0000021" />
@@ -5573,10 +5573,10 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
               </rdf:RDF>
             </annotation>
           </unit>
-          <unit exponent="-1" kind="second" metaid="df513fc1-b229-4892-af90-25f6e166ac0d" multiplier="3600" scale="0">
+          <unit exponent="-1" kind="second" metaid="_0f4cf732-baa2-48f9-8874-8b22c45af69c" multiplier="3600" scale="0">
             <annotation>
               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Description rdf:about="#df513fc1-b229-4892-af90-25f6e166ac0d">
+                <rdf:Description rdf:about="#_0f4cf732-baa2-48f9-8874-8b22c45af69c">
                   <bqbiol:isVersionOf>
                     <rdf:Bag>
                       <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000032" />
@@ -5590,10 +5590,10 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
       </unitDefinition>
       <unitDefinition id="substance" name="Millimoles per gram (dry weight)">
         <listOfUnits>
-          <unit exponent="1" kind="mole" metaid="ded5e99c-4c85-411d-94e5-b0d8315afc2b" multiplier="1" scale="-3">
+          <unit exponent="1" kind="mole" metaid="_3b013cbd-8d3b-434f-8da1-ce4638708d17" multiplier="1" scale="-3">
             <annotation>
               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Description rdf:about="#ded5e99c-4c85-411d-94e5-b0d8315afc2b">
+                <rdf:Description rdf:about="#_3b013cbd-8d3b-434f-8da1-ce4638708d17">
                   <bqbiol:is>
                     <rdf:Bag>
                       <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000040" />
@@ -5603,10 +5603,10 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
               </rdf:RDF>
             </annotation>
           </unit>
-          <unit exponent="-1" kind="gram" metaid="_34a520f6-7098-459c-a11a-c2bb335e6043" multiplier="1" scale="0">
+          <unit exponent="-1" kind="gram" metaid="_85d86d61-cb03-4e6e-9b7a-bc6438b475b5" multiplier="1" scale="0">
             <annotation>
               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Description rdf:about="#_34a520f6-7098-459c-a11a-c2bb335e6043">
+                <rdf:Description rdf:about="#_85d86d61-cb03-4e6e-9b7a-bc6438b475b5">
                   <bqbiol:isVersionOf>
                     <rdf:Bag>
                       <rdf:li rdf:resource="UO:0000021" />
@@ -5620,10 +5620,10 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
       </unitDefinition>
       <unitDefinition id="time" name="Hour">
         <listOfUnits>
-          <unit exponent="1" kind="second" metaid="_640d5cf7-9377-499f-b06c-09dcdcbd2fb9" multiplier="3600" scale="0">
+          <unit exponent="1" kind="second" metaid="f993a034-8744-4cb3-9911-e3c74f6d144c" multiplier="3600" scale="0">
             <annotation>
               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Description rdf:about="#_640d5cf7-9377-499f-b06c-09dcdcbd2fb9">
+                <rdf:Description rdf:about="#f993a034-8744-4cb3-9911-e3c74f6d144c">
                   <bqbiol:is>
                     <rdf:Bag>
                       <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000032" />
@@ -5637,26 +5637,26 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfCompartments>
-      <compartment constant="true" id="c" metaid="_7ffa1b70-7c69-41a6-b136-8bc1e765081b" name="cytosol" sboTerm="SBO:0000290" units="dimensionless">
+      <compartment constant="true" id="e" metaid="c518e114-108d-4c9a-a393-23589dfad88c" name="extracellular space" sboTerm="SBO:0000290" units="dimensionless">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#_7ffa1b70-7c69-41a6-b136-8bc1e765081b">
+            <rdf:Description rdf:about="#c518e114-108d-4c9a-a393-23589dfad88c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/c" />
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/e" />
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment constant="true" id="e" metaid="_463b9763-fe97-4800-8766-d3832de7146b" name="extracellular space" sboTerm="SBO:0000290" units="dimensionless">
+      <compartment constant="true" id="c" metaid="d1d0d2c2-4557-423b-a4d3-2a3f23b7fc73" name="cytosol" sboTerm="SBO:0000290" units="dimensionless">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-            <rdf:Description rdf:about="#_463b9763-fe97-4800-8766-d3832de7146b">
+            <rdf:Description rdf:about="#d1d0d2c2-4557-423b-a4d3-2a3f23b7fc73">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/e" />
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/c" />
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -12604,7 +12604,7 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </species>
-      <species boundaryCondition="false" compartment="e" constant="false" fbc:chemicalFormula="Fe" hasOnlySubstanceUnits="false" id="M_fe3_e" metaid="M_fe3_e" name="Fe3+">
+      <species boundaryCondition="false" compartment="e" constant="false" fbc:chemicalFormula="Fe" hasOnlySubstanceUnits="false" id="M_fe3_e" metaid="M_fe3_e" name="Iron (Fe3+)">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
             <rdf:Description rdf:about="#M_fe3_e">
@@ -14232,7 +14232,7 @@ xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:groups="
           </rdf:RDF>
         </annotation>
       </species>
-      <species boundaryCondition="false" compartment="c" constant="false" fbc:chemicalFormula="Fe" hasOnlySubstanceUnits="false" id="M_fe3_c" metaid="M_fe3_c" name="Fe3+">
+      <species boundaryCondition="false" compartment="c" constant="false" fbc:chemicalFormula="Fe" hasOnlySubstanceUnits="false" id="M_fe3_c" metaid="M_fe3_c" name="Iron (Fe3+)">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
             <rdf:Description rdf:about="#M_fe3_c">
