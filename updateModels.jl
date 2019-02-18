@@ -36,7 +36,7 @@ end
 
 # create a temporary directory
 tempDirPath = mktempdir()
-repoDir = ENV['ARTENOLIS_DATA_PATH'] * "/repos/COBRA.models"
+repoDir = ENV["ARTENOLIS_DATA_PATH"] * "/repos/COBRA.models"
 
 # change directory
 cd(repoDir)
