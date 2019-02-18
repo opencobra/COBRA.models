@@ -80,9 +80,9 @@ end
 
 # print a feedback message
 if counter > 0
-    run(pipeline(`echo "[COBRA.models] Models are different"`, `mail -s "+ [COBRA.models] Models are different" ${ARTENOLIS_EMAIL}`))
+    run(pipeline(`echo "[COBRA.models] Models are different"`, `mail -s "+ [COBRA.models] Models are different" $(ENV["ARTENOLIS_EMAIL"])`))
 else
-    run(pipeline(`echo "[COBRA.models] Models are the same"`, `mail -s "- [COBRA.models] Models are the same" ${ARTENOLIS_EMAIL}`))
+    run(pipeline(`echo "[COBRA.models] Models are the same"`, `mail -s "- [COBRA.models] Models are the same" $(ENV["ARTENOLIS_EMAIL"])`))
 end
 
 # remove the temporary folder
