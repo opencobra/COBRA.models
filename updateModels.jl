@@ -36,7 +36,7 @@ end
 
 # create a temporary directory
 tempDirPath = mktempdir()
-repoDir = "/var/lib/jenkins/COBRA.models"
+repoDir = ENV['ARTENOLIS_DATA_PATH'] * "/repos/COBRA.models"
 
 # change directory
 cd(repoDir)
@@ -80,9 +80,9 @@ end
 
 # print a feedback message
 if counter > 0
-    run(pipeline(`echo "[COBRA.models] Models are different"`, `mail -s "+ [COBRA.models] Models are different" laurent.heirendt@uni.lu`))
+    run(pipeline(`echo "[COBRA.models] Models are different"`, `mail -s "+ [COBRA.models] Models are different" ${ARTENOLIS_EMAIL}`))
 else
-    run(pipeline(`echo "[COBRA.models] Models are the same"`, `mail -s "- [COBRA.models] Models are the same" laurent.heirendt@uni.lu`))
+    run(pipeline(`echo "[COBRA.models] Models are the same"`, `mail -s "- [COBRA.models] Models are the same" ${ARTENOLIS_EMAIL}`))
 end
 
 # remove the temporary folder
