@@ -1,5 +1,4 @@
-using JSON
-using Requests
+using JSON, SHA
 
 function downloadModelZipFile(filename, url=""; fileToBeRenamed="", location=pwd())
 
@@ -14,8 +13,8 @@ function downloadModelZipFile(filename, url=""; fileToBeRenamed="", location=pwd
 
     println(" > downloadModelZipFile | The directory is: $tempDirPath")
 
-    modelFile = Requests.get(url)
-    save(modelFile, modelName)
+    #modelFile = HTTP.get(url)
+    download(url, modelName)
 
     # unzip the file
     run(`unzip -qq $modelName`)
@@ -23,7 +22,7 @@ function downloadModelZipFile(filename, url=""; fileToBeRenamed="", location=pwd
     # rename unzipped file if necessary
     if ~isempty(fileToBeRenamed)
         println(" > downloadModelZipFile | Moving $fileToBeRenamed to $filename")
-        mv(fileToBeRenamed, filename, remove_destination=true);
+        mv(fileToBeRenamed, filename, force=true);
     end
 
     # remove the temporary folder
@@ -56,19 +55,18 @@ for model in listModels
 
     if model["url"][end-3:end] == ".mat" || model["url"][end-3:end]  == ".xml"
         # download the file name
-        modelFile = get(model["url"])
-        save(modelFile, modelName)
+        download(model["url"], modelName)
+
         # get the original model
         modelOrig = modelExt[2:end]*"/"*model["name"]
-
     else
         modelOrig = model["name"][end-2:end]*"/"*model["name"]
         downloadModelZipFile(modelName, model["url"], fileToBeRenamed=model["fileToBeRenamed"], location=tempDirPath)
     end
 
     # save the checksum
-    checkSum = Base.crc32c(read(modelName))
-    checkSumOrig = Base.crc32c(read(repoDir*"/"*modelOrig))
+    checkSum = bytes2hex(sha256(read(modelName)))
+    checkSumOrig = bytes2hex(sha256(read(repoDir*"/"*modelOrig)))
 
     if checkSum == checkSumOrig
         println(" - SAME: $(model["name"]) [new: $checkSum | orig: $checkSumOrig]")
