@@ -33,6 +33,15 @@ function downloadModelZipFile(filename, url=""; fileToBeRenamed="", location=pwd
     println(" > downloadModelZipFile | Model from .zip file stored in $location")
 end
 
+# set the environment variables
+if !("ARTENOLIS_DATA_PATH" in keys(ENV))
+    ENV["ARTENOLIS_DATA_PATH"] = "/tmp"
+end
+
+if !("ARTENOLIS_EMAIL" in keys(ENV))
+    ENV["ARTENOLIS_EMAIL"] = "artenobot@uni.lu"
+end
+
 # create a temporary directory
 tempDirPath = mktempdir()
 repoDir = ENV["ARTENOLIS_DATA_PATH"] * "/repos/COBRA.models"
