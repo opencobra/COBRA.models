@@ -59,6 +59,7 @@ counter = 0
 
 # loop through the models and download them
 for model in listModels
+    global counter
     modelExt = model["name"][end-3:end]
     modelName = tempDirPath*"/"*model["name"]
 
