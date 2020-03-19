@@ -1,7 +1,11 @@
 [
     {
         "name": "Ec_iAF1260_flux1.xml",
+<<<<<<< HEAD
         "url": "http://systemsbiology.ucsd.edu/sites/default/files/Attachments/Images/InSilicoOrganisms/Ecoli/Ecoli_SBML/msb4100155-s6.zip",
+=======
+        "url": "http://systemsbiology.ucsd.edu/sites/systemsbiology.ucsd.edu/files/Attachments/Images/InSilicoOrganisms/Ecoli/Ecoli_SBML/msb4100155-s6.zip",
+>>>>>>> 0f7321a4a76ae78b8eef7e1f38b8c95cdc7eece9
         "fileToBeRenamed": "Ec_iAF1260_flux1.txt"
     },
     {
@@ -11,7 +15,11 @@
     },
     {
         "name": "ME_matrix_GlcAer_WT.mat",
+<<<<<<< HEAD
         "url": "https://wwwen.uni.lu/content/download/72953/917521/file/download.zip",
+=======
+        "url": "https://webdav-r3lab.uni.lu/public/msp/uni-lu/ME_matrix_GlcAer_WT.mat.zip",
+>>>>>>> 0f7321a4a76ae78b8eef7e1f38b8c95cdc7eece9
         "fileToBeRenamed": "ME_matrix_GlcAer_WT.mat"
     },
     {
@@ -21,7 +29,11 @@
     },
     {
         "name": "cardiac_mit_glcuptake_atpmax.mat",
+<<<<<<< HEAD
         "url": "https://wwwen.uni.lu/content/download/72949/917505/file/Human%20cardiac%20myocyte%20mitochondrial%20metabolic%20reconstruction_cardiac_mit_glcuptake_atpmax.mat.zip",
+=======
+        "url": "https://webdav-r3lab.uni.lu/public/msp/uni-lu/cardiac_mit_glcuptake_atpmax.mat.zip",
+>>>>>>> 0f7321a4a76ae78b8eef7e1f38b8c95cdc7eece9
         "fileToBeRenamed": "cardiac_mit_glcuptake_atpmax.mat"
     },
     {
@@ -38,6 +50,7 @@
     },
     {
         "name": "Sc_iND750_flux1.xml",
+<<<<<<< HEAD
         "url": "http://gcrg.ucsd.edu/sites/default/files/Attachments/Images/InSilicoOrganisms/yeast/Sc_iND750_flux1.xml"
     },
     {
@@ -47,6 +60,17 @@
     {
         "name": "modelReg.mat",
         "url": "http://gcrg.ucsd.edu/sites/default/files/Attachments/Images/downloads/Ecoli_core/modelReg.mat"
+=======
+        "url": "http://systemsbiology.ucsd.edu/sites/systemsbiology.ucsd.edu/files/Attachments/Images/InSilicoOrganisms/yeast/Sc_iND750_flux1.xml"
+    },
+    {
+        "name": "ecoli_core_model.mat",
+        "url": "http://systemsbiology.ucsd.edu/sites/systemsbiology.ucsd.edu/files/Attachments/Images/downloads/Ecoli_core/ecoli_core_model.mat"
+    },
+    {
+        "name": "modelReg.mat",
+        "url": "http://systemsbiology.ucsd.edu/sites/systemsbiology.ucsd.edu/files/Attachments/Images/downloads/Ecoli_core/modelReg.mat"
+>>>>>>> 0f7321a4a76ae78b8eef7e1f38b8c95cdc7eece9
     },
     {
         "name": "iAF1260.mat",
